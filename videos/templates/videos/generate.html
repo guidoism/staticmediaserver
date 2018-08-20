@@ -1,0 +1,9 @@
+<table>
+  <tr>
+    {% for m in movies %}
+    <td>
+    <a href="/movies/{{m.path}}">{{m.image_tag}}</a>
+    </td>
+    {% endfor %}
+  </tr>
+</table>

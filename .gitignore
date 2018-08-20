@@ -1,0 +1,6 @@
+db.sqlite3
+videos/movie/images/
+.DS_Store
+._.DS_Store
+__pycache__
+*.pyc
